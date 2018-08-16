@@ -1,6 +1,6 @@
 {
     "extends": "airbnb",
     "rules": {
-        "quotes": ["warning", "double"]
-    }
+        'no-else-return': ['error', { allowElseIf: true }]
+      }
 }

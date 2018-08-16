@@ -1,6 +1,12 @@
 {
   "name": "react-parser",
   "version": "0.1.0",
+  "eslintConfig": {
+      "env": {
+        "browser": true,
+        "node": true
+      }
+  },
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
@@ -14,7 +20,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "lint": "eslint"
+    "lint": "eslint src/**.js"
   },
   "devDependencies": {
     "moment": "^2.22.2"
