@@ -1,6 +1,6 @@
 .parser {
   display: block;
-  padding: 40px;
+  padding: 0px 40px;
   font-size: 14px;
   width: 1000px;
 }
@@ -8,8 +8,10 @@
 .App-header {
   background-color: #222;
   height: 100px;
-  padding: 20px;
+  padding: 10px 100px;
   color: white;
+  display: flex;
+  align-items: center;
 }
 
 .App-title {
