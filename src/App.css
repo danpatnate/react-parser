@@ -17,7 +17,8 @@
 }
 
 .parser__posts {
-  padding: 60px;
+  padding: 20px 60px;
+  border-bottom: 1px solid gray;
 }
 
 .parser__title {
